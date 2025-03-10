@@ -1,13 +1,16 @@
 import React from "react";
+import { View, Text } from "react-native";
+
 import BottomNavBar from "../components/BottomNavBar"; 
+import TopNavBar from "../components/TopNavBar";
+
 
 const App = () => {
   return (
-    <div>
-      <h1>Benvenuto nella mia App</h1>
-      {/* Contenuto della tua applicazione */}
-      <BottomNavBar />
-    </div>
+    <View>
+        <TopNavBar />
+        <BottomNavBar />   
+    </View>
   );
 };
 
