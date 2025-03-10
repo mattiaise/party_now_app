@@ -1,21 +1,6 @@
-# 🎉 PartyNow! App
+# Welcome to your Expo app 👋
 
-Benvenuto in **PartyNow!**, l'app definitiva per organizzare feste e eventi in modo semplice ed efficace! Con un'interfaccia intuitiva e un design accattivante, questa app ti aiuta a gestire ospiti, attività e dettagli logistici con pochi tap.
-
-## 🚀 Tecnologie Utilizzate
-
-- **React Native** - Per un'esperienza mobile fluida su iOS e Android.
-- **Expo** - Per un rapido sviluppo e test senza complicazioni.
-- **Tailwind CSS** - Per uno stile moderno e personalizzabile.
-
-## 📌 Funzionalità Principali
-
-- ✅ **Gestione Ospiti**: Aggiungi, modifica e rimuovi ospiti facilmente.
-- ✅ **To-Do List**: Crea e monitora le attività essenziali per la festa.
-- ✅ **Budget Planner**: Tieni traccia delle spese per un evento perfettamente bilanciato.
-- ✅ **Inviti Digitali**: Invia inviti personalizzati ai tuoi ospiti direttamente dall'app.
-- ✅ **Notifiche**: Ricevi promemoria sulle scadenze più importanti.
-- ✅ **Tema Personalizzabile**: Adatta i colori e lo stile dell'app al mood della tua festa.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## 🛠 Installazione e Avvio
 
