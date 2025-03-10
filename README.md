@@ -40,7 +40,7 @@ Benvenuto in **PartyNow!**, l'app definitiva per organizzare feste e eventi in m
 
 Questo progetto è rilasciato sotto la licenza **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**. Ciò significa che puoi utilizzare, modificare e condividere il codice, **ma non per scopi commerciali**.
 
-Per ulteriori dettagli, consulta il file [LICENSE](./LICENSE).
+Per ulteriori dettagli, consulta il file [LICENSE](./LICENSE.md).
 
 ---
 
