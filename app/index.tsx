@@ -1,17 +1,19 @@
-import React from "react";
-import { View, Text } from "react-native";
+import { useEffect } from "react";
+import { useRouter } from "expo-router";
+import { View, ActivityIndicator } from "react-native";
 
-import BottomNavBar from "../components/BottomNavBar"; 
-import TopNavBar from "../components/TopNavBar";
+export default function LoadingScreen() {
+  const router = useRouter();
 
+  useEffect(() => {
+    setTimeout(() => {
+      router.push("/(tabs)/home");
+    }, 2000);
+  }, []);
 
-const App = () => {
   return (
-    <View>
-        <TopNavBar />
-        <BottomNavBar />   
+    <View className="flex-1 items-center justify-center bg-gray-900">
+      <ActivityIndicator size="large" color="#facc15" />
     </View>
   );
-};
-
-export default App;
+}
