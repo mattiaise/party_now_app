@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# 🎉 PartyNow!
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Benvenuto in **PartyNow!**, l'app definitiva per organizzare feste e eventi in modo semplice ed efficace! Con un'interfaccia intuitiva e un design accattivante, questa app ti aiuta a gestire ospiti, attività e dettagli logistici con pochi tap.
 
-## Get started
+## 🚀 Tecnologie Utilizzate
 
-1. Install dependencies
+- **React Native** - Per un'esperienza mobile fluida su iOS e Android.
+- **Expo** - Per un rapido sviluppo e test senza complicazioni.
+- **Tailwind CSS** - Per uno stile moderno e personalizzabile.
 
-   ```bash
+## 📌 Funzionalità Principali
+
+- ✅ **Gestione Ospiti**: Aggiungi, modifica e rimuovi ospiti facilmente.
+- ✅ **To-Do List**: Crea e monitora le attività essenziali per la festa.
+- ✅ **Budget Planner**: Tieni traccia delle spese per un evento perfettamente bilanciato.
+- ✅ **Inviti Digitali**: Invia inviti personalizzati ai tuoi ospiti direttamente dall'app.
+- ✅ **Notifiche**: Ricevi promemoria sulle scadenze più importanti.
+- ✅ **Tema Personalizzabile**: Adatta i colori e lo stile dell'app al mood della tua festa.
+
+## 🛠 Installazione e Avvio
+
+1. Clona il repository:
+   ```sh
+   git clone https://github.com/mattiaise/party_now_app
+   cd party_now_app
+   ```
+2. Installa le dipendenze:
+   ```sh
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+3. Installa tailwind:
+   ```sh
+   npm install nativewind tailwindcss@^3.4.17 react-native-reanimated@3.16.2 react-native-safe-area-context
    ```
+4. Installa lucide react:
+   ```sh
+   npm install lucide-react
+   ```
+5. Avvia l'app con Expo:
+   ```sh
+   npx expo start
+   ```
+6. Scansiona il QR Code con Expo Go per testarlo sul tuo smartphone!
 
-In the output, you'll find options to open the app in a
+## 📜 Licenza e Copyright
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+© 2025 PartyNow!. Tutti i diritti riservati.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Questo progetto è distribuito sotto la **Licenza Anti-Commerciale Personalizzata (Basata su AGPL-3.0)**.  
 
-## Get a fresh project
+**L'uso commerciale di questo software è strettamente proibito senza l'autorizzazione scritta esplicita degli autori.**  
 
-When you're ready, run:
+Per maggiori dettagli, consulta il file [LICENSE](./LICENSE).  
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🚀 **Preparati a creare eventi indimenticabili con PartyNow!** 🎊🥳
