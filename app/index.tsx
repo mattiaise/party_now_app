@@ -7,7 +7,7 @@ export default function LoadingScreen() {
 
   useEffect(() => {
     setTimeout(() => {
-      router.push("/(tabs)/home");
+      router.push("/(tabs)/(home)");
     }, 2000);
   }, []);
 
