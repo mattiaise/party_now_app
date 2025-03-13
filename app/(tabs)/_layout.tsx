@@ -1,12 +1,32 @@
-import { Tabs } from "expo-router";
+import FontAwesome from '@expo/vector-icons/FontAwesome';
+import { Tabs } from 'expo-router';
 
-
-export default function TabsLayout() {
+export default function TabLayout() {
   return (
-    <Tabs>
-      <Tabs.Screen name="(home)" options={{ title: "Home" }} />
-      <Tabs.Screen name="(create)" options={{title: "Crea", tabBarStyle: {display: "none"}, headerShown: false}} />
-      <Tabs.Screen name="(profile)" options={{ title: "Profile" }} />
+    <Tabs screenOptions={{ tabBarActiveTintColor: 'blue' }}>
+      <Tabs.Screen
+        name="(home)"
+        options={{
+          title: 'Home',
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="home" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="(create)"
+        options={{
+          title: 'Create',
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="plus" color={color} />,
+          tabBarStyle: ({ display: 'none' }),
+          headerShown: false
+        }}
+      />
+      <Tabs.Screen
+        name="[profile]"
+        options={{
+          title: 'Profile',
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="user" color={color} />,
+        }}
+      />
     </Tabs>
   );
 }
