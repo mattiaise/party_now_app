@@ -32,9 +32,10 @@ Benvenuto in **PartyNow!**, l'app definitiva per organizzare feste e eventi in m
    ```sh
    npm install nativewind tailwindcss@^3.4.17 react-native-reanimated@3.16.2 react-native-safe-area-context
    ```
-4. Installa lucide react:
+4. Installa le librerie:
    ```sh
    npm install lucide-react
+   npm install react-native-ui-datepicker
    ```
 5. Avvia l'app con Expo:
    ```sh
